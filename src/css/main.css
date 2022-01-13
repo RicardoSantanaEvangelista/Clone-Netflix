@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #FFF;
 }
 
@@ -38,7 +38,7 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #FFF;
+    color: var(--vermelho);
 }
 
 /*FILME PRINCIPAL*/
@@ -97,4 +97,21 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.fab{
+    color: var(--vermelho);
+    margin-left: 5px;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.rodape .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
